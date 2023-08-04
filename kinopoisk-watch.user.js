@@ -1,9 +1,8 @@
 // ==UserScript==
 // @name		Kinopoisk Watch
 // @namespace	kinopoisk-watch
-// @author		Kirlovon
+// @author		kotanoff
 // @description Watch films on Kinopoisk.ru for free!
-// @icon		https://github.com/Kirlovon/Kinopoisk-Watch/raw/master/website/favicon.png
 // @version		1.5.0
 // @match		*://www.kinopoisk.ru/*
 // @grant		none
@@ -25,7 +24,7 @@ const BANNER_IMAGE = `
 
 const BANNER_ID = 'kinopoisk-watch';
 const MOVIE_TYPES = ['film', 'series'];
-const PLAYER_LINK = 'https://kinopoisk-watch.org/player/';
+const PLAYER_LINK = 'https://ktnff.tech/player/';
 
 let lastUrl = '/';
 
